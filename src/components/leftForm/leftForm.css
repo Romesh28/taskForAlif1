@@ -1,0 +1,38 @@
+.LeftForm {
+    width: 300px;
+    border: 2px solid #eee;
+    margin: 5px;
+    padding: 20px;
+}
+.LeftForm form {
+    text-align: center;
+}
+.LeftForm form input {
+    width: 98%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    background: #3b4148;
+    border-radius: 0 3px 3px 0;
+    color: #eee;
+    border: 0;
+    font-size: 18px;
+    outline: none;
+}
+.LeftForm form select {
+    width: 98%;
+    height: 40px;
+    color: #eee;
+    font-size: 18px;
+    margin-top: 10px;
+    background: #3b4148;
+    border: 0;
+    outline: none;
+    border-radius: 0 3px 3px 0;
+}
+
+::-webkit-datetime-edit-text { text-align: center; padding: 0 2rem; }
+::-webkit-datetime-edit-month-field { text-transform: uppercase; }
+::-webkit-datetime-edit-day-field { text-transform: uppercase; }
+::-webkit-datetime-edit-year-field { text-transform: uppercase; }
+::-webkit-calendar-picker-indicator { display:none;}
